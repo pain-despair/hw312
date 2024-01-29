@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.categories, .products, .product-info {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 5px;
+    color: purple;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
